@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/pokebola.png">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- scrip -->
+     <script defer src="./js/script.js" ></script>
+
+    <title>Pokédex</title>
+</head>
+<body>
+    <section>
+        <div class="main-text">
+            <h1 class="title">Pokedéx</h1>
+            <h2 class="mini-subtilte">Atualmente com 1025 pokemons</h2>
+        </div>
+        <div class="pokedex-space">
+            <div class="info-pokemon">
+                <span class="number" id="number"> - </span>
+                <span class="name" id="name"> - </span>
+            </div>
+            <form class="form" id="form">
+                <input
+                    type="search"
+                    id="inputName"
+                    class="input-seach"
+                    placeholder="Nome ou Id do pokemon"
+                    required
+                />
+            </form>
+            <div class="buttons">
+                <button id="buttonPrevent">&lt Anterior</button>
+                <button id="buttonNext">Próximo &gt</button>
+            </div>
+            <img src="./images/pikachu2.webp" class="pokemon-photo" id="pokemon-photo" alt="Pokemon">
+            <div class="pikachu-run" >
+                <img src="./images/pikachu.gif" alt="Pokemon">
+            </div>
+            <img class="pokedex-body" src="./images/pokedex.png" alt="Pokedex">
+        </div>
+        <div class="main-text">
+            <h2 class="subtitle">Feito por <a href="https://github.com/Miguel2k20" target="_blank">João Miguel Mendonça</a> e <a href="https://github.com/moralesgabi" target="_blank">Gabrielle Morales</a></h2>
+        </div>
+    </section>
+</body>
+</html>
